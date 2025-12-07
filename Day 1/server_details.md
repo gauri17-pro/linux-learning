@@ -18,4 +18,27 @@ uname -a
 ```
 <img width="2934" height="204" alt="ScreenShot 2025-12-07 at 20 58 51@2x" src="https://github.com/user-attachments/assets/8f09f263-9bfc-4d09-97d6-e0cab9b3a271" />
 
-- 
+- To get the details for how long your system is up and running
+```
+uptime
+```
+<img width="2228" height="220" alt="ScreenShot 2025-12-07 at 21 01 26@2x" src="https://github.com/user-attachments/assets/d7d77762-d991-40b0-a1e0-72de9a169471" />
+
+- To know the current username
+```
+whoami
+```
+<img width="1780" height="230" alt="ScreenShot 2025-12-07 at 21 04 56@2x" src="https://github.com/user-attachments/assets/54140e87-1e37-46b4-b972-295eb42931d8" />
+
+- To know who has logged in
+```
+who
+```
+<img width="1698" height="254" alt="ScreenShot 2025-12-07 at 21 15 18@2x" src="https://github.com/user-attachments/assets/8701bea0-3a1d-48b0-978c-77e396251969" />
+
+- To know what the logged in users are doing
+```
+w
+```
+<img width="2124" height="374" alt="ScreenShot 2025-12-07 at 21 16 15@2x" src="https://github.com/user-attachments/assets/4a46596f-110b-4f85-8135-6d6663c7d053" />
+
