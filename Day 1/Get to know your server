@@ -1,0 +1,5 @@
+## Commands to get to know about your server:
+
+- lsb_release -a
+This command is basically used to print the Linux Standard Base version and distributions.
+
