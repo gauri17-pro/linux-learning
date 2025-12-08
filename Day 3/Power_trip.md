@@ -31,7 +31,9 @@ sudo passwd {username}
 
 - Change the hostname
   hostnamectl will provide the current hostname of the system along with other system details
-  `hostnamectl`
+  ```
+  hostnamectl
+  ```
   <img width="581" height="408" alt="image" src="https://github.com/user-attachments/assets/6b07e357-11d1-4325-b213-56ba63be6407" />
 
 
@@ -59,3 +61,4 @@ sudo passwd {username}
   sudo timedatectl set-timezone Asia/Kolkata
   ```
   <img width="876" height="280" alt="image" src="https://github.com/user-attachments/assets/0f3e610e-4824-4756-b46a-e2892f7288f5" />
+
