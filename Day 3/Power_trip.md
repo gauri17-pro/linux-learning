@@ -115,7 +115,48 @@ The following image shows all the users on the system:
 
 ## THE POWER OF SUDO
 
+- To check if the sudo is installed on the system
+  ```
+  which sudo
+  ```
 
-  
+- The group for sudo can be either sudo or wheel
+
+- To check the group name for sudo on your current system:
+  ```
+  sudo cat /etc/sudoers  
+  ```
+
+- To check the associated groups with the user, execute the command below:
+  ```
+  groups username
+  ```
+  <img width="718" height="56" alt="image" src="https://github.com/user-attachments/assets/99967a5d-7f0f-4c05-ace2-7f2177ea6f35" />
+
+- Since Ubuntu is a part of sudo group, it is a sudo-enabled group and can use sudo to execute commands
+
+- `sudo -l` is a safe, non-destructive command used to check what sudo privileges the current user has.
+
+<img width="1807" height="278" alt="image" src="https://github.com/user-attachments/assets/04c9ce63-1ea5-4474-8cac-7c751e4f0e0f" />
+
+Line 1: (ALL : ALL) ALL explains --> 
+```
+User ubuntu can run ALL commands as ALL users AND ALL groups, with password.
+```
+
+Line 2: (ALL) NOPASSWD: ALL -->
+```
+User ubuntu can run ALL commands as ALL users WITHOUT entering a password.
+```
+
+It’s effectively as follows:
+```
+ubuntu ALL=(ALL) NOPASSWD: ALL
+```
+
+- `!!` executes the last command executed
+
+- You can make use of `visudo` command to open /etc/sudoers file
+- Ctrl O, Enter and Ctrl X
 
 
